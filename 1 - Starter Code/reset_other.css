@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Permanent+Marker&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    margin: 18px 12vw 34px 18vw;
+    background-image: url("images/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    cursor: default;
+}
+
+li {
+    list-style: none;
+}
+
+button,
+input {
+    font-family: 'Permanent Marker', cursive;
+    outline: none;
+    border: none;
+    background-color: Transparent;
+}
+
+article h2,
+article h4 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+hr {
+    border: none;
+    background-image: url("images/hrs/sidebar.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+article {
+    font-family: 'Kalam', cursive;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.generic-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+html {
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: calc(2.4rem + 30.4px);
+}
+
+h2 {
+    font-size: calc(1.32rem + 16.8px);
+}
+
+h3,
+button {
+    font-size: calc(.94rem + 12px);
+}
+
+h4 {
+    font-size: calc(.74rem + 9.6px);
+}
+
+h5,
+body,
+input,
+p {
+    font-size: calc(.52rem + 6.4px);
+}
+
+.big-text {
+    font-size: calc(1.52rem + 19.2px);
+}
+
+.small-text {
+    font-size: calc(.4rem + 4.8px);
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 1.6vw;
+    }
+    body {
+        margin: 38px 4vw 22px;
+    }
+}
+
+@media (max-width: 660px) {
+    html {
+        font-size: 2.4vw;
+    }
+    body {
+        margin: 24px 18px 18px;
+    }
+    h1 {
+        font-size: calc(1.6rem + 12px);
+    }
+    h2 {
+        font-size: calc(1.22rem + 12px);
+    }
+    nav {
+        font-size: calc(.4rem + 8.2px);
+    }
+    .article-preview {
+        font-size: calc(.68rem + 7.2px);
+    }
+    .big-text {
+        font-size: calc(1.52rem + 11px);
+    }
+}
